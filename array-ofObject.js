@@ -19,3 +19,14 @@ console.log(affordable)
 // reduce 
 const total = produts.reduce((acum, current)=> acum+current.price, 0)
 console.log(total)
+
+const people = [
+    {name: "mina", age: 20},
+    {name: "rina", age: 15},
+    {name: "suchorita", age: 22},
+]
+// const totalage = people.reduce((acum, curent)=> acum + curent.age, 0)
+// console.log(totalage)
+
+const filterpeople = people.filter(p => p.name === "mina")
+console.log(filterpeople)
